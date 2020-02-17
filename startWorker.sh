@@ -9,5 +9,5 @@ chmod +x ports.sh add.sh docker.sh installDocker.sh setup.sh clean.sh output.txt
 ./installDocker.sh
 ./setup.sh
 sudo ./docker.sh
-./add.sh
+sudo ./add.sh
 sudo ./ports.sh
