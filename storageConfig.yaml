@@ -14,4 +14,4 @@ spec:
     deploymentStrategy: deployment
   resources:
     requests:
-    memory: "6Gi"
+      memory: "6Gi"
