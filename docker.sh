@@ -9,7 +9,13 @@ cat > /etc/docker/daemon.json <<EOF
 }
 EOF
 
-mkdir -p /etc/systemd/system/docker.service.d
+mkdir -p /etc/systemd/system/docker.service.d/
+
+cat <<EOF > /etc/systemd/system/docker.service.d/mount_propagation_flags.conf
+[Service]
+MountFlags=shared
+EOF
+
 
 # Restart docker.
 systemctl daemon-reload
