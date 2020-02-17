@@ -1,3 +1,4 @@
+echo $(hostname -i) $(hostname) | sudo tee -a /etc/hosts
 sudo apt-get install -y iptables arptables ebtables
 sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
 sudo update-alternatives --set ip6tables /usr/sbin/ip6tables-legacy
