@@ -9,5 +9,5 @@ spec:
   ports:
   - protocol: TCP
     port: 1433
-    nodePort: 11433
+    nodePort: 31433
     
