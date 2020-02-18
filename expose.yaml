@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mssql-expose
+  name: mssql-public
 spec:
   type: NodePort
   selector:
@@ -9,4 +9,5 @@ spec:
   ports:
   - protocol: TCP
     port: 1433
-    targetPort: 11433
+    nodePort: 11433
+    
