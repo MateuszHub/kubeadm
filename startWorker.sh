@@ -5,6 +5,10 @@ curl -O https://raw.githubusercontent.com/MateuszHub/kubeadm/master/installDocke
 curl -O https://raw.githubusercontent.com/MateuszHub/kubeadm/master/setup.sh
 curl -O https://raw.githubusercontent.com/MateuszHub/kubeadm/master/clean.sh
 curl -O https://raw.githubusercontent.com/MateuszHub/key/master/output.txt
+curl -O https://raw.githubusercontent.com/MateuszHub/kubeadm/master/master.sh
+curl -O https://raw.githubusercontent.com/MateuszHub/kubeadm/master/push.sh
+curl -O https://raw.githubusercontent.com/MateuszHub/kubeadm/master/storageOs.sh
+curl -O https://raw.githubusercontent.com/MateuszHub/kubeadm/master/mssql.sh
 chmod +x ports.sh add.sh docker.sh installDocker.sh setup.sh clean.sh output.txt
 ./installDocker.sh
 ./setup.sh
